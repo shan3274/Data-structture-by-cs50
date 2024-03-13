@@ -19,7 +19,9 @@ typedef struct node
         if (n == NULL)return 1;
         n->number = number;
         n->next = list;
-        list = n;
+         list = n;
+        
+       
     }
     
     // printing whole list
@@ -31,29 +33,6 @@ typedef struct node
     }
     
 
-
-
-
-    // node *n1 = malloc(sizeof(node));
-    // node *n2 = malloc(sizeof(node));
-    // node *n3 = malloc(sizeof(node));
-
-    // n1->number = 1;
-    // n1->next = n2;
-
-    // n2->number = 2;
-    // n2->next = n3;
-
-    // n3->number = 3;
-    // n3->next = NULL;
-
-    // list = n1;
-
-    // while (list != NULL && list->next != NULL)
-    // {
-    //     printf("%i\n",list->number);
-    //     list = list->next;
-    // }
     
 
     return 0;
